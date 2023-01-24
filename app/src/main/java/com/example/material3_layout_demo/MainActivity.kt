@@ -35,11 +35,11 @@ class MainActivity : ComponentActivity() {
                             }
                         },
                         topBar = {
-                            MediumTopAppBar(
+                            SmallTopAppBar(
                                 title = {
                                     Text(text = "Material3 & Compose")
                                 },
-                                colors = TopAppBarDefaults.mediumTopAppBarColors(
+                                colors = TopAppBarDefaults.smallTopAppBarColors(
                                     containerColor = MaterialTheme.colorScheme.surfaceVariant,
                                     titleContentColor = MaterialTheme.colorScheme.onSurfaceVariant
                                 )
